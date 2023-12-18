@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Лол">
+    <meta name="keywords" content="ключевые слова, для, поиска">
+    <title>Cамолет-вертолёт</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+
+<main>
+    <div class="container">
+<section id="home">
+    <h1>Добро пожаловать на мой сайт!</h1>
+    <p>Затестируй фунцонал ниже!</p>
+</section>
+
+
+<section id="about">
+    <h2>Просто попробуй</h2>
+    <p>Ниже есть окошко. Введите в него имя и отфлильтруй записи так, как тебе нужно!</p>
+</section>
+<!-- Добавляем поле ввода и кнопку -->
+<section id="filterSection">
+    <label for="filterByName">Фильтр по имени:</label>
+    <input type="text" id="filterByName">
+    <button onclick="filterMaterials()">Применить</button>
+</section>
+
+<!-- Блок для отображения отфильтрованных материалов -->
+<section id="materials" class="scrollable">
+    <!-- Здесь будут отображены материалы -->
+    <!-- Например, пять элементов с классом "material" -->
+    <div class="material">Запись 1</div>
+    <div class="material">Запись 2</div>
+    <div class="material">Запись 3</div>
+    <div class="material">Запись 4</div>
+    <div class="material">Запись 5</div>
+</section>
+    </div>
+</main>
+
+<footer>
+    <p>&copy; 2023 Солдатов Роман. Все права защищены.</p>
+</footer>
+
+</body>
+</html>

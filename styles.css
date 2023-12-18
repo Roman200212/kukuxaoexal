@@ -1,0 +1,131 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #B3E5FC; /* Голубой фон */
+    text-align: center; /* Выравнивание текста по центру */
+    background-image: url('fish.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+header {
+    background-color: #B3E5FC;
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Выравниваем контент по центру вертикально */
+}
+
+section {
+    width: 100%;
+    max-width: 600px; /* Примерный максимальный размер секции */
+    margin-bottom: 30px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px; /* Закругление углов */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень */
+    text-align: center; /* Выравнивание текста внутри секции по центру */
+}
+
+/* Стили для разных элементов */
+h1, h2 {
+    color: #1976D2; /* Цвет заголовков */
+}
+
+p {
+    color: #004D40; /* Цвет текста */
+}
+.container {
+    width: 60%; /* Примерный размер контейнера */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center; /* Выравнивание текста внутри контейнера по центру */
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 50%; /* Уменьшаем ширину полей ввода до 50% */
+    max-width: 300px; /* Максимальная ширина поля */
+    padding: 5px; /* Уменьшаем отступы внутри поля */
+    margin-bottom: 10px;
+    display: block; /* Размещаем поля ввода по центру */
+    margin: 0 auto;
+}
+.material {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+/* Стили для блока отображения материалов с прокруткой */
+.scrollable {
+    height: 300px; /* Фиксированная высота */
+    overflow-y: auto; /* Включаем вертикальную прокрутку */
+}
+button {
+    background-color: transparent;
+    color: #1976D2; /* Цвет текста кнопки */
+    padding: 8px 16px; /* Уменьшаем отступы кнопки */
+    border: 2px solid #1976D2; /* Обводка кнопки */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    display: block; /* Размещаем кнопки по центру */
+    margin: 0 auto;
+}
+/* Новые стили для надписи "Фильтр по имени" */
+/* Новые стили для надписи "Фильтр по имени" */
+#filterSection label {
+    color: #1976D2; /* Синий цвет текста */
+    font-size: 24px; /* Увеличенный размер шрифта */
+font-weight: bold; /* Жирное начертание текста */
+}
+
+/* Увеличение расстояния между кнопкой "Применить" и надписью "Фильтр по имени" */
+#filterSection button {
+    margin-top: 60px; /* Пример: увеличение отступа сверху */
+}
+
+
+button:hover {
+    background-color: #1976D2;
+    color: white;
+}
+
+footer {
+    background-color:#B3E5FC;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
